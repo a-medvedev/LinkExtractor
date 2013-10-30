@@ -13,7 +13,7 @@ public class Extractor {
         List<String> extracted = new ArrayList<>();
 
         current.add(root);
-        for (int i = 1; i == depth; i++){
+        for (int i = 1; i <= depth; i++){
             System.out.println("Глубина " + i);
 
             //перебираем каждый URL, экстрагируем ссылки, добавляем их в общую копилку
