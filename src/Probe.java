@@ -1,5 +1,4 @@
-
-public class Launcher {
+public class Probe {
     public static void main(String[] args){
 
     }

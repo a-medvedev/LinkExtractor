@@ -17,7 +17,9 @@ public class Extractor {
         }
     }
 
-    public List<String> extract(List<String> links){
-        List<String>
+    public List<String> extract(URL link){
+        List<String> result = new ArrayList<String>();
+
+        return result;
     }
 }
