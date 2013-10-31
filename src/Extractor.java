@@ -31,7 +31,7 @@ public class Extractor {
                         while (input.hasNextLine()){
                             contentBuilder.append(input.nextLine());
                         }
-                        String content = contentBuilder.toString(); //Страмица целиком
+                        String content = contentBuilder.toString(); //Страница целиком
 
                     }
                 } catch (IOException e) {
@@ -39,6 +39,8 @@ public class Extractor {
                 }
             }
         }
+
+        return result;
     }
 
     private List<URL> convertToURLList(List<String> links){
