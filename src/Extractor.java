@@ -133,7 +133,11 @@ public class Extractor {
     //Фильтрует ссылки не относящиеся к этому домену
     private List<URL> filter(List<URL> links, URL domain){
         List<URL> result = new ArrayList<URL>();
-        String str_domain = domain.toString();
+        String str_domain = domain.getHost();
+        if (str_domain.split(".").length > 2){
+            int length = str_domain.split(".").length;
+            str_domain = str_domain.split(".")[length-2] + str_domain.split(".")[length-2];
+        }
         for (URL u : links){
             if (u.toString().contains(str_domain)){
                 result.add(u);
