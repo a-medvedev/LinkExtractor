@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09b3839f-97d6-4533-ae0b-d5f6757d03e9" name="Default" comment="30.10 14:05">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Extractor.java" afterPath="$PROJECT_DIR$/src/Extractor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Launcher.java" afterPath="$PROJECT_DIR$/src/Launcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Probe.java" afterPath="$PROJECT_DIR$/src/Probe.java" />
+    <list default="true" id="09b3839f-97d6-4533-ae0b-d5f6757d03e9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/v2/Extractor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\Dropbox\Projects\Java\LinkExtractor\src\Extractor.java" afterPath="$PROJECT_DIR$/src/v1/Extractor.java" />
+      <change type="MOVED" beforePath="D:\Dropbox\Projects\Java\LinkExtractor\src\Launcher.java" afterPath="$PROJECT_DIR$/src/v1/Launcher.java" />
+      <change type="MOVED" beforePath="D:\Dropbox\Projects\Java\LinkExtractor\src\Probe.java" afterPath="$PROJECT_DIR$/src/v1/Probe.java" />
+      <change type="MOVED" beforePath="D:\Dropbox\Projects\Java\LinkExtractor\src\readme.txt" afterPath="$PROJECT_DIR$/src/v1/readme.txt" />
     </list>
     <ignored path="LinkExtractor.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="09b3839f-97d6-4533-ae0b-d5f6757d03e9" time="1383291428029" ignored="false" />
-    <file path="/Extractor.java" changelist="09b3839f-97d6-4533-ae0b-d5f6757d03e9" time="1383293321061" ignored="false" />
+    <file path="/Dummy.txt" changelist="09b3839f-97d6-4533-ae0b-d5f6757d03e9" time="1383305431992" ignored="false" />
+    <file path="/Extractor.java" changelist="09b3839f-97d6-4533-ae0b-d5f6757d03e9" time="1383306037426" ignored="false" />
     <file path="/Launcher.java" changelist="09b3839f-97d6-4533-ae0b-d5f6757d03e9" time="1383291577433" ignored="false" />
     <file path="/Probe.java" changelist="09b3839f-97d6-4533-ae0b-d5f6757d03e9" time="1383292876771" ignored="false" />
+    <file path="/readme.txt" changelist="09b3839f-97d6-4533-ae0b-d5f6757d03e9" time="1383293972336" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +30,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -63,7 +67,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -73,33 +76,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Launcher.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Launcher.java">
+      <file leaf-file-name="Launcher.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/v1/Launcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="46" selection-start="330" selection-end="330" vertical-scroll-proportion="0.25701943">
+            <state line="14" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/v1/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="0.07254623">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Extractor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Extractor.java">
+        <entry file="file://$PROJECT_DIR$/src/v1/Extractor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="22" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+            <state line="58" column="48" selection-start="2427" selection-end="2427" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="method#convertToURLList#0;class#Extractor#0" expanded="false" />
                 <element signature="method#validate#0;class#Extractor#0" expanded="false" />
-                <element signature="e#4118#4126#0" expanded="true" />
                 <element signature="method#filter#0;class#Extractor#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Probe.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Probe.java">
+      <file leaf-file-name="Extractor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/v2/Extractor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="39" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Probe.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/v1/Probe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="29" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -126,6 +146,9 @@
         <option value="$PROJECT_DIR$/src/Probe.java" />
         <option value="$PROJECT_DIR$/src/Extractor.java" />
         <option value="$PROJECT_DIR$/src/Launcher.java" />
+        <option value="$PROJECT_DIR$/src/readme.txt" />
+        <option value="$PROJECT_DIR$/src/v1/Extractor.java" />
+        <option value="$PROJECT_DIR$/src/v2/Extractor.java" />
       </list>
     </option>
   </component>
@@ -161,6 +184,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -194,9 +218,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LinkExtractor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LinkExtractor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,12 +252,17 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dropbox\Projects\Java\LinkExtractor\src\v1" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Launcher">
     <configuration default="false" name="Probe" type="Application" factoryName="Application" temporary="true">
@@ -236,7 +282,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Launcher" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Launcher" />
+      <option name="MAIN_CLASS_NAME" value="v1.Launcher" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -247,13 +293,7 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="LinkExtractor" />
       <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -269,19 +309,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -309,6 +336,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -350,9 +390,10 @@
       <item index="1" class="java.lang.String" itemvalue="Application.Launcher" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Application.Launcher" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Probe" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Launcher" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Probe" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -396,12 +437,24 @@
       <created>1383116757854</created>
       <updated>1383116757854</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1.11 15:16">
+      <created>1383293788822</created>
+      <updated>1383293788822</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1.11 15:16">
+      <created>1383294329609</created>
+      <updated>1383294329609</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1.11 15:16">
+      <created>1383294343670</created>
+      <updated>1383294343670</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -416,8 +469,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6707819" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32921812" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6707819" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -467,7 +520,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="30.10 14:05" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.11 15:16" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -484,6 +537,7 @@
     <MESSAGE value="25.10 12:50" />
     <MESSAGE value="30.10 11:12" />
     <MESSAGE value="30.10 14:05" />
+    <MESSAGE value="1.11 15:16" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -493,149 +547,136 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Launcher.java">
+    <entry file="file://$PROJECT_DIR$/src/v1/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="13" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Extractor.java">
+    <entry file="file://$PROJECT_DIR$/src/v1/Extractor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="method#convertToURLList#0;class#Extractor#0" expanded="false" />
             <element signature="method#validate#0;class#Extractor#0" expanded="false" />
-            <element signature="e#4118#4126#0" expanded="true" />
             <element signature="method#filter#0;class#Extractor#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Probe.java">
+    <entry file="file://$PROJECT_DIR$/src/v1/Probe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Launcher.java">
+    <entry file="file://$PROJECT_DIR$/src/v1/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="13" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Extractor.java">
+    <entry file="file://$PROJECT_DIR$/src/v1/Extractor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="method#convertToURLList#0;class#Extractor#0" expanded="false" />
             <element signature="method#validate#0;class#Extractor#0" expanded="false" />
-            <element signature="e#4118#4126#0" expanded="true" />
             <element signature="method#filter#0;class#Extractor#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Probe.java">
+    <entry file="file://$PROJECT_DIR$/src/v1/Probe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Launcher.java">
+    <entry file="file://$PROJECT_DIR$/src/v1/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="13" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Extractor.java">
+    <entry file="file://$PROJECT_DIR$/src/v1/Extractor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="method#convertToURLList#0;class#Extractor#0" expanded="false" />
             <element signature="method#validate#0;class#Extractor#0" expanded="false" />
-            <element signature="e#4118#4126#0" expanded="true" />
             <element signature="method#filter#0;class#Extractor#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Probe.java">
+    <entry file="file://$PROJECT_DIR$/src/v1/Extractor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#convertToURLList#0;class#Extractor#0" expanded="false" />
+            <element signature="method#validate#0;class#Extractor#0" expanded="false" />
+            <element signature="method#filter#0;class#Extractor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v1/Extractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#convertToURLList#0;class#Extractor#0" expanded="false" />
+            <element signature="method#validate#0;class#Extractor#0" expanded="false" />
+            <element signature="method#filter#0;class#Extractor#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/v1/Probe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="29" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Launcher.java">
+    <entry file="file://$PROJECT_DIR$/src/v1/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+        <state line="14" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Extractor.java">
+    <entry file="file://$PROJECT_DIR$/src/v1/Extractor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="58" column="48" selection-start="2427" selection-end="2427" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="method#convertToURLList#0;class#Extractor#0" expanded="false" />
             <element signature="method#validate#0;class#Extractor#0" expanded="false" />
-            <element signature="e#4118#4126#0" expanded="true" />
             <element signature="method#filter#0;class#Extractor#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Extractor.java">
+    <entry file="file://$PROJECT_DIR$/src/v2/Extractor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#convertToURLList#0;class#Extractor#0" expanded="false" />
-            <element signature="method#validate#0;class#Extractor#0" expanded="false" />
-            <element signature="e#4118#4126#0" expanded="true" />
-            <element signature="method#filter#0;class#Extractor#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Extractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#convertToURLList#0;class#Extractor#0" expanded="false" />
-            <element signature="method#validate#0;class#Extractor#0" expanded="false" />
-            <element signature="e#4118#4126#0" expanded="true" />
-            <element signature="method#filter#0;class#Extractor#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Probe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="39" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Extractor.java">
+    <entry file="file://$PROJECT_DIR$/src/v1/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="method#convertToURLList#0;class#Extractor#0" expanded="false" />
-            <element signature="method#validate#0;class#Extractor#0" expanded="false" />
-            <element signature="e#4118#4126#0" expanded="true" />
-            <element signature="method#filter#0;class#Extractor#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="46" selection-start="330" selection-end="330" vertical-scroll-proportion="0.25701943">
+        <state line="3" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="0.07254623">
           <folding />
         </state>
       </provider>

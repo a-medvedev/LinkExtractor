@@ -1,3 +1,5 @@
+package v1;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -48,10 +50,10 @@ public class Extractor {
                         }
 
                         //Pattern p = Pattern.compile("(href=\")([\\p{Graph}]*)(\")");
-                        Pattern p = Pattern.compile("(<a[\\w|\\s]*)(href=\")([\\p{Graph}]*)(\")([\\w|\\s]*>)");
+                        Pattern p = Pattern.compile("(<a[\\w|\\s]*href=\")([\\p{Graph}]*)(\")([\\w|\\s]*>)");
                         Matcher m = p.matcher(sb.toString());
                         while(m.find()){
-                            String extracted_URL = m.group(3).split("[?]")[0];
+                            String extracted_URL = m.group(2).split("[?]")[0];
                             if (!extracted.contains(extracted_URL)){
                                 extracted.add(extracted_URL);
                             }
