@@ -1,11 +1,24 @@
 import java.io.*;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Probe {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws MalformedURLException {
+        URL rambler = new URL("http://www.rambler.ru/mail/inbox");
+        System.out.println(rambler.getHost());
+        System.out.println(rambler.getRef());
+        System.out.println(rambler.getProtocol());
+        System.out.println();
+        System.out.println();
+        System.out.println();
+    }
+
+    private void fromURL() throws IOException{
         URL url = new URL("http://kstatida.ru");
         URLConnection conn = url.openConnection();
         InputStream is = conn.getInputStream();
