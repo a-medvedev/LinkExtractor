@@ -74,9 +74,14 @@ public class Extractor{
         List<String> extracted = new ArrayList<String>();   //содержит ссылки полученные со страницы
         List<URL> current = new ArrayList<URL>();   //Ссылки приведенные к URL
 
+        current.add(start);
+
         //Основной цикл для прохода по ссылкам до заданной глубины
         for (int i = 1; i <= depth; i++){
-
+            //Перебираем каждый URL в списке
+            for(URL u : current){
+            //TODO добавить многопоточную обработку
+            }
         }
 
         return result;
