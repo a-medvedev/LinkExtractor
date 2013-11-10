@@ -69,7 +69,17 @@ public class Extractor{
 
     //получает ссылки по указанному адресу
     public List<URL> extract(URL start, int depth){
+        //Рабочие структуры
+        List<URL> result = new ArrayList<URL>();    //накапливает экстрагированные ссылки
+        List<String> extracted = new ArrayList<String>();   //содержит ссылки полученные со страницы
+        List<URL> current = new ArrayList<URL>();   //Ссылки приведенные к URL
 
+        //Основной цикл для прохода по ссылкам до заданной глубины
+        for (int i = 1; i <= depth; i++){
+
+        }
+
+        return result;
     }
 
     //удаляет относительные ссылки из массива

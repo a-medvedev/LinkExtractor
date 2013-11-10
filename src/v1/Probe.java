@@ -10,7 +10,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Probe {
-    public static void main(String[] args) throws MalformedURLException {
+    public static void main(String[] args) {
+
+    }
+
+    private void URLTest() throws MalformedURLException {
         URL rambler = new URL("http://www.rambler.ru/mail/inbox");
         System.out.println(rambler.getHost());
         System.out.println(rambler.getRef());
